@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List📝</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List ✏️</h1>
+        <input type="text" id="new-task" placeholder="Add a new task">
+        <input type="number" id="priority-level" placeholder="Set priority for the task" min="1" max="3">
+        <button id="add-task-btn">Add Task</button>
+        <button id="clear-tasks-btn" class="clear-all">Clear All</button>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
